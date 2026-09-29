@@ -1,0 +1,50 @@
+---
+title: sumit writeups
+description: Writeups on Linux, my dev setup, and whatever I'm learning next.
+template: splash
+hero:
+  tagline: Dummer the dev. Dummer the writeups.
+  image:
+    file: ../../assets/logo.svg
+  actions:
+    - text: My linux bible
+      link: /linux/story/
+      icon: right-arrow
+    - text: About me!
+      link: https://sumit-poudel.com.np
+      icon: external
+      variant: minimal
+    - text: Follow me on Github lol!
+      link: https://github.com/sumit-poudel
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What's here
+
+<CardGrid stagger>
+	<Card title="My Linux story" icon="laptop">
+		Broken dual-boots, WM hopping, and how I ended up on Arch + Niri the long
+		way. [Read the story](/linux/story/).
+	</Card>
+	<Card title="Zeditor setup" icon="pencil">
+		My Zed config for Go + Templ: vim keymap, minimal UI, tmux terminal,
+		lazygit tasks and local-only AI. [Read the writeup](/linux/zeditor/).
+	</Card>
+	<Card title="Docker / DevOps" icon="rocket">
+		Learning in public. Notes as I go. [Follow along](/devops/docker/).
+	</Card>
+</CardGrid>
+
+## My stack
+
+<CardGrid>
+	<Card title="Daily driver" icon="laptop">
+		Arch + Niri + noctalia, foot, fish, Zeditor, and Neovim for quick edits.
+	</Card>
+	<Card title="Language" icon="setting">
+		Go, with Templ for the frontend.
+	</Card>
+</CardGrid>
